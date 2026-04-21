@@ -26,10 +26,10 @@ ClipShot is an AI-powered video search system that enables **natural language qu
 ## ▶️ Demo
 
 🎥 **Project Demo Video:**  
-👉 [Watch Demo](YOUR_VIDEO_LINK_HERE)
+👉 [Watch Demo]()
 
 📦 **Full Test Video (Large File):**  
-👉 [Download test_video.mp4](YOUR_GOOGLE_DRIVE_LINK)
+👉 [Download test_video.mp4](https://drive.google.com/file/d/1_MR5m61GsBuyymLRN_7S5jyR9_IOU68I/view?usp=drive_link)
 
 Example queries:
 - *"person carrying a bag near entrance"*
@@ -102,7 +102,7 @@ Video Input → Frame Sampling → CLIP Embedding → FAISS Index → Query Enco
 
 ### 1. Clone Repo
 ```bash
-git clone [https://github.com/Swagata191/ClipShot.git](https://github.com/Swagata191/ClipShot.git)
+git clone https://github.com/Swagata191/ClipShot.git
 cd ClipShot
 ```
 ### 2. Install Dependencies
@@ -124,21 +124,44 @@ streamlit run app.py
 
 ---
 
-## 📊 Benchmark Results
-Metric	Value
-Throughput	~4.4 FPS
-Embedding Time	~1.36s
-Peak Memory	~52 MB
-Index Size	~0.01 MB
-Device	CPU
-
----
-
 ## 📁 Output Format
 Results are stored in:
 ```bash
 results/results.json
 ```
+
+---
+
+## 🎯 Design Decisions
+
+### Why CLIP?
+- Joint image-text embedding
+- Strong semantic understanding
+- No need for labeled data
+
+### Why FAISS?
+- Industry-standard vector search
+- Scales efficiently
+- Supports ANN for speed
+
+### Why Streamlit?
+- Fast prototyping
+- Clean UI for visualization
+- Minimal frontend overhead
+
+### Sampling Strategy
+- Uniform sampling (trade-off between speed & coverage)
+- Avoids memory overload
+
+---
+
+## 📊 Benchmark Results
+- Metric	Value
+- Throughput	~4.4 FPS
+- Embedding Time	~1.36s
+- Peak Memory	~52 MB
+- Index Size	~0.01 MB
+- Device	CPU
 
 ---
 
@@ -159,7 +182,7 @@ results/results.json
 
 ---
 
-## 🌟 What I Explored Beyond Requirements
+## 🌟 Explorations Beyond Requirements
 - Built a full UI dashboard with:
 - Live search
 - Confidence scoring
@@ -170,6 +193,4 @@ results/results.json
 
 ---
 
-Developed by Swagata Maji
-Domain: Video AI & Retrieval 
-Subject: Variphi Take-Home Project
+# Developed by Swagata Maji
