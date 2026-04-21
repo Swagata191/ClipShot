@@ -26,7 +26,7 @@ ClipShot is an AI-powered video search system that enables **natural language qu
 ## ▶️ Demo
 
 🎥 **Project Demo Video:**  
-👉 [Watch Demo]()
+👉 [Watch Demo](https://drive.google.com/file/d/11ZXG0-PTbNPENXF4aOOPAr3pNeLlX9VE/view?usp=drive_link)
 
 📦 **Full Test Video (Large File):**  
 👉 [Download test_video.mp4](https://drive.google.com/file/d/1_MR5m61GsBuyymLRN_7S5jyR9_IOU68I/view?usp=drive_link)
