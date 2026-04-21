@@ -1,0 +1,14 @@
+{
+  "total_frames_indexed": 6,
+  "videos_processed": 1,
+  "embedding_time_sec": 1.36,
+  "total_pipeline_time_sec": 14.52,
+  "throughput_frames_per_sec": 4.41,
+  "peak_memory_mb": 52.72,
+  "embedding_array_mb": 0.01,
+  "faiss_index_size_mb": 0.01,
+  "device": "cpu",
+  "model": "ViT-B-32",
+  "ann_index": true,
+  "temporal_context_neighbors": 2
+}

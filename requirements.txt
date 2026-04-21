@@ -1,0 +1,12 @@
+torch
+torchvision
+open-clip-torch
+faiss-cpu
+opencv-python
+Pillow
+numpy
+streamlit
+fastapi
+uvicorn
+tqdm
+scenedetect[opencv]

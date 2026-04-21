@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "00:00:02",
+    "score": 0.2625,
+    "thumb_path": "results/thumbnails/sample_2_f60.jpg",
+    "video_path": "videos/sample_2.mp4",
+    "query": "black car in parking"
+  },
+  {
+    "timestamp": "00:00:00",
+    "score": 0.2624,
+    "thumb_path": "results/thumbnails/sample_2_f0.jpg",
+    "video_path": "videos/sample_2.mp4",
+    "query": "black car in parking"
+  },
+  {
+    "timestamp": "00:00:01",
+    "score": 0.2622,
+    "thumb_path": "results/thumbnails/sample_2_f30.jpg",
+    "video_path": "videos/sample_2.mp4",
+    "query": "black car in parking"
+  }
+]

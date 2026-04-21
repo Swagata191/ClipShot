@@ -1,0 +1,8 @@
+results/index.faiss
+venv/
+__pycache__/
+*.pyc
+*.pyo
+model_cache/
+.env
+videos/test_video.mp4
