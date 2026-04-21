@@ -17,9 +17,9 @@ ClipShot is an AI-powered video search system that enables **natural language qu
 | Category | Technology |
 | :--- | :--- |
 | **Frontend** | Streamlit |
-- **Backend** | Python |  
-- **Model** | OpenAI CLIP (ViT-B/32) |
-- **Indexing** | FAISS |
+| **Backend** | Python |  
+| **Model** | OpenAI CLIP (ViT-B/32) |
+| **Indexing** | FAISS |
 
 ---
 
@@ -31,9 +31,14 @@ ClipShot is an AI-powered video search system that enables **natural language qu
 📦 **Full Test Video (Large File):**  
 👉 [Download test_video.mp4](YOUR_GOOGLE_DRIVE_LINK)
 
+Example queries:
+- *"person carrying a bag near entrance"*
+- *"cars parked from above"*
+- *"two people talking after 18:00"*
+
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 ```text
 ClipShot/
 ├── app.py
@@ -48,37 +53,35 @@ ClipShot/
 
 ---
 
-Example queries:
-- *"person carrying a bag near entrance"*
-- *"cars parked from above"*
-- *"two people talking after 18:00"*
-
----
-
 ## 🏗️ Architecture Overview
 
 ### 🔹 Pipeline
 Video Input → Frame Sampling → CLIP Embedding → FAISS Index → Query Encoding → ANN Search → Results
 
 ### 🔹 Components
+
 #### 1. Video Ingestion
 - Reads videos from directory
 - Extracts frames at fixed intervals
+  
 #### 2. Frame Sampling
 - Uniform sampling strategy (efficient & memory-safe)
 - Avoids processing every frame
+  
 #### 3. Embedding (Core AI)
 - Model: **CLIP (ViT-B/32 - OpenAI)**
 - Converts:
   - Frames → Image embeddings
   - Queries → Text embeddings
 - Shared embedding space enables semantic matching
+  
 #### 4. Vector Index
 - Library: **FAISS**
 - Supports:
   - Flat (Exact Search)
   - IVF (Approximate ANN)
 - Optimized for fast similarity search
+  
 #### 5. Query Engine
 - Encodes text query
 - Performs nearest neighbor search
@@ -131,14 +134,6 @@ Device	CPU
 
 ---
 
-##⚡ Performance Optimizations
-Batch embedding for faster inference
-FAISS ANN indexing (IVFFlat)
-Lightweight CLIP model
-Efficient frame sampling
-
----
-
 ## 📁 Output Format
 Results are stored in:
 ```bash
@@ -175,6 +170,6 @@ results/results.json
 
 ---
 
-## Developed by Swagata Maji
-## Domain: Video AI & Retrieval 
-## Subject: Variphi Take-Home Project
+Developed by Swagata Maji
+Domain: Video AI & Retrieval 
+Subject: Variphi Take-Home Project
