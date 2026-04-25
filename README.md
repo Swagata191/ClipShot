@@ -28,7 +28,7 @@ ClipShot is an AI-powered video search system that enables **natural language qu
 🎥 **Project Demo Video:**  
 👉 [Watch Demo](https://drive.google.com/file/d/11ZXG0-PTbNPENXF4aOOPAr3pNeLlX9VE/view?usp=drive_link)
 
-📦 **Full Test Video (Large File):**  
+📦 **Full Test Video:**  
 👉 [Download test_video.mp4](https://drive.google.com/file/d/1_MR5m61GsBuyymLRN_7S5jyR9_IOU68I/view?usp=drive_link)
 
 Example queries:
@@ -111,7 +111,7 @@ pip install -r requirements.txt
 ```
 ### 3. Add Videos
 ```bash
-mkdir videos # Add your .mp4 files here
+videos/ # Add your .mp4 files here
 ```
 ### 4. Run Indexing Pipeline
 ```bash
@@ -156,12 +156,12 @@ results/results.json
 ---
 
 ## 📊 Benchmark Results
-- Metric	Value
-- Throughput	~4.4 FPS
-- Embedding Time	~1.36s
-- Peak Memory	~52 MB
-- Index Size	~0.01 MB
-- Device	CPU
+Metric	Value
+- Throughput	~1.41 FPS
+- Embedding Time	~9.2s
+- Peak Memory	~52.72 MB
+- Index Size	~0.03 MB
+Device	CPU
 
 ---
 
@@ -183,10 +183,7 @@ results/results.json
 ---
 
 ## 🌟 Explorations Beyond Requirements
-- Built a full UI dashboard with:
-- Live search
-- Confidence scoring
-- Video playback at timestamp
+- Built a full UI dashboard with Live search, Confidence scoring and Video playback at timestamp
 - Implemented ANN indexing
 - Added benchmark tracking
 - Designed a cyberpunk-style UX interface
