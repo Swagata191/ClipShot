@@ -3,6 +3,55 @@
     "frame_idx": 0,
     "timestamp": "00:00:00",
     "timestamp_sec": 0.0,
+    "video_path": "videos/sample_1.mp4",
+    "thumb_path": "results/thumbnails/sample_1_f0.jpg"
+  },
+  {
+    "frame_idx": 60,
+    "timestamp": "00:00:01",
+    "timestamp_sec": 1.0,
+    "video_path": "videos/sample_1.mp4",
+    "thumb_path": "results/thumbnails/sample_1_f60.jpg"
+  },
+  {
+    "frame_idx": 120,
+    "timestamp": "00:00:02",
+    "timestamp_sec": 2.0,
+    "video_path": "videos/sample_1.mp4",
+    "thumb_path": "results/thumbnails/sample_1_f120.jpg"
+  },
+  {
+    "frame_idx": 180,
+    "timestamp": "00:00:03",
+    "timestamp_sec": 3.0,
+    "video_path": "videos/sample_1.mp4",
+    "thumb_path": "results/thumbnails/sample_1_f180.jpg"
+  },
+  {
+    "frame_idx": 240,
+    "timestamp": "00:00:04",
+    "timestamp_sec": 4.0,
+    "video_path": "videos/sample_1.mp4",
+    "thumb_path": "results/thumbnails/sample_1_f240.jpg"
+  },
+  {
+    "frame_idx": 300,
+    "timestamp": "00:00:05",
+    "timestamp_sec": 5.0,
+    "video_path": "videos/sample_1.mp4",
+    "thumb_path": "results/thumbnails/sample_1_f300.jpg"
+  },
+  {
+    "frame_idx": 360,
+    "timestamp": "00:00:06",
+    "timestamp_sec": 6.0,
+    "video_path": "videos/sample_1.mp4",
+    "thumb_path": "results/thumbnails/sample_1_f360.jpg"
+  },
+  {
+    "frame_idx": 0,
+    "timestamp": "00:00:00",
+    "timestamp_sec": 0.0,
     "video_path": "videos/sample_2.mp4",
     "thumb_path": "results/thumbnails/sample_2_f0.jpg"
   },

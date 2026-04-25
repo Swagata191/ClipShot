@@ -1,23 +1,37 @@
 [
   {
     "timestamp": "00:00:02",
-    "score": 0.2625,
+    "score": 0.2597,
     "thumb_path": "results/thumbnails/sample_2_f60.jpg",
     "video_path": "videos/sample_2.mp4",
-    "query": "black car in parking"
+    "query": "red car in parking"
   },
   {
-    "timestamp": "00:00:00",
-    "score": 0.2624,
-    "thumb_path": "results/thumbnails/sample_2_f0.jpg",
+    "timestamp": "00:00:03",
+    "score": 0.2579,
+    "thumb_path": "results/thumbnails/sample_2_f90.jpg",
     "video_path": "videos/sample_2.mp4",
-    "query": "black car in parking"
+    "query": "red car in parking"
   },
   {
     "timestamp": "00:00:01",
-    "score": 0.2622,
+    "score": 0.2578,
     "thumb_path": "results/thumbnails/sample_2_f30.jpg",
     "video_path": "videos/sample_2.mp4",
-    "query": "black car in parking"
+    "query": "red car in parking"
+  },
+  {
+    "timestamp": "00:00:04",
+    "score": 0.2553,
+    "thumb_path": "results/thumbnails/sample_2_f120.jpg",
+    "video_path": "videos/sample_2.mp4",
+    "query": "red car in parking"
+  },
+  {
+    "timestamp": "00:00:05",
+    "score": 0.2534,
+    "thumb_path": "results/thumbnails/sample_2_f150.jpg",
+    "video_path": "videos/sample_2.mp4",
+    "query": "red car in parking"
   }
 ]
