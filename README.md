@@ -156,12 +156,14 @@ results/results.json
 ---
 
 ## 📊 Benchmark Results
-Metric	Value
-- Throughput	~1.41 FPS
-- Embedding Time	~9.2s
-- Peak Memory	~52.72 MB
-- Index Size	~0.03 MB
-Device	CPU
+
+| Metric           | Value        |
+|-----------------|-------------|
+| Throughput      | ~1.41 FPS   |
+| Embedding Time  | ~9.2 s      |
+| Peak Memory     | ~52.72 MB   |
+| Index Size      | ~0.03 MB    |
+| Device          | CPU         |
 
 ---
 
@@ -183,7 +185,7 @@ Device	CPU
 ---
 
 ## 🌟 Explorations Beyond Requirements
-- Built a full UI dashboard with Live search, Confidence scoring and Video playback at timestamp
+- Built a full UI dashboard with live search, confidence scoring and video playback at timestamp
 - Implemented ANN indexing
 - Added benchmark tracking
 - Designed a cyberpunk-style UX interface
