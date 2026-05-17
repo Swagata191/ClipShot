@@ -2,7 +2,7 @@ torch
 torchvision
 open-clip-torch
 faiss-cpu
-opencv-python
+opencv-python-headless
 Pillow
 numpy
 streamlit
