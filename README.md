@@ -2,6 +2,8 @@
 
 ClipShot is an AI-powered video search system that enables **natural language querying over videos**. It uses CLIP embeddings + FAISS indexing to retrieve the most relevant frames with timestamps.
 
+![Homepage](screenshots/Homepage.png)
+
 ---
 
 ## 🚀Key Features
